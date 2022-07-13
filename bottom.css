@@ -1,0 +1,27 @@
+.bottom {
+    height: 113px;
+    background-color: #2a2a2a;
+}
+
+.bottom > .boxes > .box {
+    border: 1px solid #adadad;
+    background-color: #3b3b3b;
+    padding-left: 67px;
+    padding-right: 66px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.bottom > .boxes > .box > .normal {
+    font-size: 1.4em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bottom > .boxes > .box > .bold {
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+

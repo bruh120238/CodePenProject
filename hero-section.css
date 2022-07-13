@@ -1,0 +1,45 @@
+.hero-section {
+    margin-top: 6px;
+    font-family: 'Work Sans2', sans-serif;
+    font-size: 2em;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(images/backgrounds/background.jfif);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .paragraph-wrapper {
+    color: #d3d3d3;
+}
+
+.hero-section > .paragraph-wrapper > .normal-text {
+    font-family: 'Work Sans2' sans-serif;
+}
+
+.hero-section > .paragraph-wrapper > .bolded-text {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.hero-section > .image > .image-text > .white-text {
+    color: #ffffff;
+}
+
+.hero-section > .image > .image-text > .white-text > .blue-text {
+    color: #00ccff;
+}
+
+.hero-section > .image > .image-text {
+    font-size: 0.7em;
+}
+
+.hero-section > .image > .image-text > .image-true img {
+    width: 540px;
+    height: 453px;
+}

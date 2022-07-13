@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    margin: -8px;
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100.5%;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.header > .left-column {
+    display: flex;
+    margin-right: -1282px;
+    width: 400px;
+    height: 100px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.header > .left-column > .header-image img {
+    margin-bottom: 25px;
+    margin-top: 27px;
+    margin-left: 25px;
+    margin-right: -1282px;
+    width: 200px;
+    height: 35px;
+}
+
+.header > .center-column {
+    align-items: center;
+    width: 600px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header > .center-column >  .header-links {
+    display: flex;
+    justify-content: center;
+}
+
+.header > .center-column >  .header-links > .explore > .explore-text {
+    color: #ceb373;
+    font-family: 'Work Sans2', sans-serif;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.header > .center-column >  .header-links > .explore > .links-wrapper > .pens {
+    padding-right: 15px;
+}
+
+.header > .center-column >  .header-links > .explore > .links-wrapper > .projects {
+    padding: 15px;
+}
+
+.header > .center-column >  .header-links > .explore > .links-wrapper > .posts {
+    padding: 15px;
+}
+
+.header > .center-column >  .header-links > .explore > .links-wrapper > .collections {
+    padding: 15px;
+}
+
+.header > .center-column .header-links > .explore > .links-wrapper  {
+    color: white;
+    font-size: 1.2em;
+}
+
+.header > .center-column > .header-links > .explore > .links-wrapper > .spark {
+    color: gray;
+    font-family: 'Work Sans2', sans-serif;
+    padding: 10px;
+}
+
+.header > .right-column {
+    color: white;
+}
+
+.header > .right-column > .buttons {
+    margin-top: 36px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.header > .right-column > .buttons > .search {
+    padding: 5px;
+}
+
+.header > .right-column > .buttons > .create {
+    padding: 5px;
+}
+
+.header > .right-column > .buttons > .login {
+    padding: 5px;
+}
